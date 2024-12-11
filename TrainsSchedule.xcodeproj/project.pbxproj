@@ -26,6 +26,7 @@
 		B5684FC42D0647BE003346BD /* CarrierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC32D0647B9003346BD /* CarrierService.swift */; };
 		B5684FC62D06482C003346BD /* StationsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC52D064821003346BD /* StationsListService.swift */; };
 		B5684FC82D06489A003346BD /* CopyrightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC72D064894003346BD /* CopyrightService.swift */; };
+		B596D56A2D09D58100D7934A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596D5692D09D57900D7934A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B5684FC32D0647B9003346BD /* CarrierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierService.swift; sourceTree = "<group>"; };
 		B5684FC52D064821003346BD /* StationsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListService.swift; sourceTree = "<group>"; };
 		B5684FC72D064894003346BD /* CopyrightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyrightService.swift; sourceTree = "<group>"; };
+		B596D5692D09D57900D7934A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		B5684FB62D063564003346BD /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
+				B596D5692D09D57900D7934A /* NetworkManager.swift */,
 				B5684FC72D064894003346BD /* CopyrightService.swift */,
 				B5684FC52D064821003346BD /* StationsListService.swift */,
 				B5684FC32D0647B9003346BD /* CarrierService.swift */,
@@ -297,6 +300,7 @@
 				B5684FBE2D064340003346BD /* ScheduleForStation.swift in Sources */,
 				B5684FC62D06482C003346BD /* StationsListService.swift in Sources */,
 				B5684FC02D064471003346BD /* ThreadStationsService.swift in Sources */,
+				B596D56A2D09D58100D7934A /* NetworkManager.swift in Sources */,
 				B5684FA12D0509A4003346BD /* ContentView.swift in Sources */,
 				B5684FC42D0647BE003346BD /* CarrierService.swift in Sources */,
 				B5684FB82D06357E003346BD /* NearestStationsService.swift in Sources */,
