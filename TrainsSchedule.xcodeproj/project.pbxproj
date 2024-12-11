@@ -6,33 +6,111 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B51494622D08DAEA00CB11FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51494612D08DAEA00CB11FE /* Constants.swift */; };
+		B51494682D08E54400CB11FE /* JSONDecoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51494672D08E53500CB11FE /* JSONDecoder+Extensions.swift */; };
+		B51494792D08EB2900CB11FE /* TrainsScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51494772D08EB2900CB11FE /* TrainsScheduleTests.swift */; };
+		B5684F9F2D0509A4003346BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5684F992D0509A4003346BD /* Preview Assets.xcassets */; };
+		B5684FA02D0509A4003346BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5684F9B2D0509A4003346BD /* Assets.xcassets */; };
+		B5684FA12D0509A4003346BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684F9C2D0509A4003346BD /* ContentView.swift */; };
+		B5684FA22D0509A4003346BD /* TrainsScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684F9D2D0509A4003346BD /* TrainsScheduleApp.swift */; };
+		B5684FA82D0509D9003346BD /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = B5684FA72D0509D9003346BD /* OpenAPIURLSession */; };
+		B5684FAB2D0509E0003346BD /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = B5684FAA2D0509E0003346BD /* OpenAPIRuntime */; };
+		B5684FAF2D06340B003346BD /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = B5684FAE2D06340A003346BD /* openapi.yaml */; };
+		B5684FB12D06344E003346BD /* openapi-generator-config.yaml in Resources */ = {isa = PBXBuildFile; fileRef = B5684FB02D06344E003346BD /* openapi-generator-config.yaml */; };
+		B5684FB82D06357E003346BD /* NearestStationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FB72D06357E003346BD /* NearestStationsService.swift */; };
+		B5684FBA2D063EDB003346BD /* ScheduleBetweenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FB92D063EDB003346BD /* ScheduleBetweenService.swift */; };
+		B5684FBE2D064340003346BD /* ScheduleForStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FBD2D06432E003346BD /* ScheduleForStation.swift */; };
+		B5684FC02D064471003346BD /* ThreadStationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FBF2D064471003346BD /* ThreadStationsService.swift */; };
+		B5684FC22D06466A003346BD /* NearestSettlementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC12D064652003346BD /* NearestSettlementService.swift */; };
+		B5684FC42D0647BE003346BD /* CarrierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC32D0647B9003346BD /* CarrierService.swift */; };
+		B5684FC62D06482C003346BD /* StationsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC52D064821003346BD /* StationsListService.swift */; };
+		B5684FC82D06489A003346BD /* CopyrightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5684FC72D064894003346BD /* CopyrightService.swift */; };
+		B596D56A2D09D58100D7934A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596D5692D09D57900D7934A /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51494712D08EB2500CB11FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5684F802D05093B003346BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5684F872D05093B003346BD;
+			remoteInfo = TrainsSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B51494612D08DAEA00CB11FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B51494672D08E53500CB11FE /* JSONDecoder+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensions.swift"; sourceTree = "<group>"; };
+		B514946D2D08EB2500CB11FE /* TrainsScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainsScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51494772D08EB2900CB11FE /* TrainsScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsScheduleTests.swift; sourceTree = "<group>"; };
 		B5684F882D05093B003346BD /* TrainsSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainsSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5684F992D0509A4003346BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5684F9B2D0509A4003346BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5684F9C2D0509A4003346BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5684F9D2D0509A4003346BD /* TrainsScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsScheduleApp.swift; sourceTree = "<group>"; };
+		B5684FAE2D06340A003346BD /* openapi.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
+		B5684FB02D06344E003346BD /* openapi-generator-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
+		B5684FB72D06357E003346BD /* NearestStationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestStationsService.swift; sourceTree = "<group>"; };
+		B5684FB92D063EDB003346BD /* ScheduleBetweenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleBetweenService.swift; sourceTree = "<group>"; };
+		B5684FBD2D06432E003346BD /* ScheduleForStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleForStation.swift; sourceTree = "<group>"; };
+		B5684FBF2D064471003346BD /* ThreadStationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadStationsService.swift; sourceTree = "<group>"; };
+		B5684FC12D064652003346BD /* NearestSettlementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestSettlementService.swift; sourceTree = "<group>"; };
+		B5684FC32D0647B9003346BD /* CarrierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierService.swift; sourceTree = "<group>"; };
+		B5684FC52D064821003346BD /* StationsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListService.swift; sourceTree = "<group>"; };
+		B5684FC72D064894003346BD /* CopyrightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyrightService.swift; sourceTree = "<group>"; };
+		B596D5692D09D57900D7934A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5684F8A2D05093B003346BD /* TrainsSchedule */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrainsSchedule;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		B5684F852D05093B003346BD /* Frameworks */ = {
+		B514946A2D08EB2500CB11FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5684F852D05093B003346BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5684FA82D0509D9003346BD /* OpenAPIURLSession in Frameworks */,
+				B5684FAB2D0509E0003346BD /* OpenAPIRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51494642D08DB0700CB11FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B51494612D08DAEA00CB11FE /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B51494662D08E52B00CB11FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B51494672D08E53500CB11FE /* JSONDecoder+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B51494782D08EB2900CB11FE /* TrainsScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51494772D08EB2900CB11FE /* TrainsScheduleTests.swift */,
+			);
+			path = TrainsScheduleTests;
+			sourceTree = "<group>";
+		};
 		B5684F7F2D05093B003346BD = {
 			isa = PBXGroup;
 			children = (
-				B5684F8A2D05093B003346BD /* TrainsSchedule */,
+				B5684F9E2D0509A4003346BD /* TrainsSchedule */,
+				B51494782D08EB2900CB11FE /* TrainsScheduleTests */,
 				B5684F892D05093B003346BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +119,82 @@
 			isa = PBXGroup;
 			children = (
 				B5684F882D05093B003346BD /* TrainsSchedule.app */,
+				B514946D2D08EB2500CB11FE /* TrainsScheduleTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5684F9A2D0509A4003346BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5684F992D0509A4003346BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5684F9E2D0509A4003346BD /* TrainsSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				B51494662D08E52B00CB11FE /* Helpers */,
+				B51494642D08DB0700CB11FE /* Models */,
+				B5684FB62D063564003346BD /* NetworkServices */,
+				B5684F9A2D0509A4003346BD /* Preview Content */,
+				B5684F9B2D0509A4003346BD /* Assets.xcassets */,
+				B5684F9C2D0509A4003346BD /* ContentView.swift */,
+				B5684F9D2D0509A4003346BD /* TrainsScheduleApp.swift */,
+				B5684FB52D06354B003346BD /* openapi */,
+			);
+			path = TrainsSchedule;
+			sourceTree = "<group>";
+		};
+		B5684FB52D06354B003346BD /* openapi */ = {
+			isa = PBXGroup;
+			children = (
+				B5684FAE2D06340A003346BD /* openapi.yaml */,
+				B5684FB02D06344E003346BD /* openapi-generator-config.yaml */,
+			);
+			path = openapi;
+			sourceTree = "<group>";
+		};
+		B5684FB62D063564003346BD /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				B596D5692D09D57900D7934A /* NetworkManager.swift */,
+				B5684FC72D064894003346BD /* CopyrightService.swift */,
+				B5684FC52D064821003346BD /* StationsListService.swift */,
+				B5684FC32D0647B9003346BD /* CarrierService.swift */,
+				B5684FC12D064652003346BD /* NearestSettlementService.swift */,
+				B5684FBD2D06432E003346BD /* ScheduleForStation.swift */,
+				B5684FB72D06357E003346BD /* NearestStationsService.swift */,
+				B5684FB92D063EDB003346BD /* ScheduleBetweenService.swift */,
+				B5684FBF2D064471003346BD /* ThreadStationsService.swift */,
+			);
+			path = NetworkServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B514946C2D08EB2500CB11FE /* TrainsScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51494732D08EB2500CB11FE /* Build configuration list for PBXNativeTarget "TrainsScheduleTests" */;
+			buildPhases = (
+				B51494692D08EB2500CB11FE /* Sources */,
+				B514946A2D08EB2500CB11FE /* Frameworks */,
+				B514946B2D08EB2500CB11FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51494722D08EB2500CB11FE /* PBXTargetDependency */,
+			);
+			name = TrainsScheduleTests;
+			packageProductDependencies = (
+			);
+			productName = TrainsScheduleTests;
+			productReference = B514946D2D08EB2500CB11FE /* TrainsScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B5684F872D05093B003346BD /* TrainsSchedule */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5684F962D05093C003346BD /* Build configuration list for PBXNativeTarget "TrainsSchedule" */;
@@ -59,12 +206,12 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B5684F8A2D05093B003346BD /* TrainsSchedule */,
+				B5684FAD2D0509EC003346BD /* PBXTargetDependency */,
 			);
 			name = TrainsSchedule;
 			packageProductDependencies = (
+				B5684FA72D0509D9003346BD /* OpenAPIURLSession */,
+				B5684FAA2D0509E0003346BD /* OpenAPIRuntime */,
 			);
 			productName = TrainsSchedule;
 			productReference = B5684F882D05093B003346BD /* TrainsSchedule.app */;
@@ -80,6 +227,10 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					B514946C2D08EB2500CB11FE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B5684F872D05093B003346BD;
+					};
 					B5684F872D05093B003346BD = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -94,37 +245,123 @@
 			);
 			mainGroup = B5684F7F2D05093B003346BD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B5684FA32D0509D0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
+				B5684FA62D0509D9003346BD /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+				B5684FA92D0509E0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B5684F892D05093B003346BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B5684F872D05093B003346BD /* TrainsSchedule */,
+				B514946C2D08EB2500CB11FE /* TrainsScheduleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5684F862D05093B003346BD /* Resources */ = {
+		B514946B2D08EB2500CB11FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5684F862D05093B003346BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5684F9F2D0509A4003346BD /* Preview Assets.xcassets in Resources */,
+				B5684FB12D06344E003346BD /* openapi-generator-config.yaml in Resources */,
+				B5684FA02D0509A4003346BD /* Assets.xcassets in Resources */,
+				B5684FAF2D06340B003346BD /* openapi.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B51494692D08EB2500CB11FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51494792D08EB2900CB11FE /* TrainsScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5684F842D05093B003346BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5684FC22D06466A003346BD /* NearestSettlementService.swift in Sources */,
+				B51494622D08DAEA00CB11FE /* Constants.swift in Sources */,
+				B5684FBE2D064340003346BD /* ScheduleForStation.swift in Sources */,
+				B5684FC62D06482C003346BD /* StationsListService.swift in Sources */,
+				B5684FC02D064471003346BD /* ThreadStationsService.swift in Sources */,
+				B596D56A2D09D58100D7934A /* NetworkManager.swift in Sources */,
+				B5684FA12D0509A4003346BD /* ContentView.swift in Sources */,
+				B5684FC42D0647BE003346BD /* CarrierService.swift in Sources */,
+				B5684FB82D06357E003346BD /* NearestStationsService.swift in Sources */,
+				B5684FA22D0509A4003346BD /* TrainsScheduleApp.swift in Sources */,
+				B5684FBA2D063EDB003346BD /* ScheduleBetweenService.swift in Sources */,
+				B51494682D08E54400CB11FE /* JSONDecoder+Extensions.swift in Sources */,
+				B5684FC82D06489A003346BD /* CopyrightService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B51494722D08EB2500CB11FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5684F872D05093B003346BD /* TrainsSchedule */;
+			targetProxy = B51494712D08EB2500CB11FE /* PBXContainerItemProxy */;
+		};
+		B5684FAD2D0509EC003346BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B5684FAC2D0509EC003346BD /* OpenAPIGenerator */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B51494742D08EB2500CB11FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4RYSJJ7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuu.www.TrainsScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainsSchedule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrainsSchedule";
+			};
+			name = Debug;
+		};
+		B51494752D08EB2500CB11FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4RYSJJ7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuu.www.TrainsScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainsSchedule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrainsSchedule";
+			};
+			name = Release;
+		};
 		B5684F942D05093C003346BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -258,8 +495,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -267,9 +505,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuu.www.TrainsSchedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,8 +529,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,15 +539,28 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuu.www.TrainsSchedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B51494732D08EB2500CB11FE /* Build configuration list for PBXNativeTarget "TrainsScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51494742D08EB2500CB11FE /* Debug */,
+				B51494752D08EB2500CB11FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B5684F832D05093B003346BD /* Build configuration list for PBXProject "TrainsSchedule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -324,6 +580,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5684FA32D0509D0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-generator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		B5684FA62D0509D9003346BD /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-urlsession";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		B5684FA92D0509E0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-runtime";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5684FA72D0509D9003346BD /* OpenAPIURLSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5684FA62D0509D9003346BD /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
+			productName = OpenAPIURLSession;
+		};
+		B5684FAA2D0509E0003346BD /* OpenAPIRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5684FA92D0509E0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */;
+			productName = OpenAPIRuntime;
+		};
+		B5684FAC2D0509EC003346BD /* OpenAPIGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5684FA32D0509D0003346BD /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
+			productName = "plugin:OpenAPIGenerator";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5684F802D05093B003346BD /* Project object */;
 }

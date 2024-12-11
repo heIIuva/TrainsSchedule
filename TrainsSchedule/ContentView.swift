@@ -5,6 +5,7 @@
 //  Created by big stepper on 08/12/2024.
 //
 
+import OpenAPIURLSession
 import SwiftUI
 
 struct ContentView: View {
